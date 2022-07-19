@@ -33,6 +33,6 @@ estadosEstaoCorretos = estadosEstaoCorretos && validarEtapa(1, palavraEsperada, 
 jogoForca.chutar('p');
 estadosEstaoCorretos = estadosEstaoCorretos && validarEtapa(0, palavraEsperada, 'edumlp', 'perdeu', jogoForca);
 
-const mensagemFinal =  estadosEstaoCorretos == true ? "Regras validadas com sucesso" :
-"Parece que algo está errado, verique suas regras";
+const mensagemFinal = estadosEstaoCorretos == true ? "Regras validadas com sucesso" :
+    "Parece que algo está errado, verifique suas regras";
 console.log(mensagemFinal);
